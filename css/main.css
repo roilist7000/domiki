@@ -1,0 +1,52 @@
+
+
+*::-webkit-input-placeholder {
+    color: #c2c2c2;
+    opacity: 1;
+}
+
+*:-moz-placeholder {
+    color: #c2c2c2;
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    color: #c2c2c2;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: #c2c2c2;
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+
+}
+
+body input:required:valid,
+body textarea:required:valid {
+
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'RobotoRegular';
+    color: #000;
+    font-size: 16px;
+    min-width: 320px;
+    padding-top: 90px;
+}
+
+a, a:hover {
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
