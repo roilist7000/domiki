@@ -114,8 +114,10 @@ header.header {
 }
 
 .menu ul li {
-    display:  inline-block;
+    display: inline-block;
     float: left;
+    padding: 3px 10px;
+    border-radius: 25px;
 }
 
 .menu ul li a {
