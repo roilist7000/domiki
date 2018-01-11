@@ -3,6 +3,7 @@
     <div class="container">
         <div class="row">
 <div class="col-md-6 col-xs-12 left-main">
+    <div class="dps">
     <h2>Коттедж «Здоровье»</h2>
     <h3>Нижняя Ельцовка</h3>
     <ul>
@@ -12,7 +13,7 @@
     </ul>
     <div class="new_row">
         <div class="col-r in">
-            <a>Подробнее <i class="icon-circleright"><</i>/a>
+            <a>Подробнее <i class="icon-circleright"></i></a>
         </div>
         <div class="col-r text-center map">
             <a><i class="icon-map"></i> как проехать</a>
@@ -25,6 +26,7 @@
             <div class="col-md-6 col-xs-12 right-main">
 <img src="/images/img01.png" alt="" title="">
             </div>
+        </div>
         </div>
     </div>
 </div>
