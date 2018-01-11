@@ -7,12 +7,12 @@
     <h3>Нижняя Ельцовка</h3>
     <ul>
         <li><i class="icon-circleright"></i>Вместимость до 100 человек</li>
-        <li><i class="icon-circleright">Количество спальных мест  25</li>
-        <li><i class="icon-circleright">от 17 000 руб.</li>
+        <li><i class="icon-circleright"></i>Количество спальных мест  25</li>
+        <li><i class="icon-circleright"></i>от 17 000 руб.</li>
     </ul>
     <div class="new_row">
         <div class="col-r in">
-            <a>Подробнее <i class="icon-circleright"></a>
+            <a>Подробнее <i class="icon-circleright"><</i>/a>
         </div>
         <div class="col-r text-center map">
             <a><i class="icon-map"></i> как проехать</a>
