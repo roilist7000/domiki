@@ -19,7 +19,7 @@
             <a><i class="icon-map"></i> как проехать</a>
         </div>
         <div class="col-r text-right foto">
-            <a><i class="icon-map"></i><span>1<br>9</span></a>
+            <a><i class="icon-map"></i><span>01<br>09</span></a>
         </div>
     </div>
 </div>
