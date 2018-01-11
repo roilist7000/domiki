@@ -18,7 +18,7 @@
         <div class="row cop">
             <div class="col-md-3 col-xs-12 soc">
                 <ul>
-                    <li><img src="/images/ins.png" alt="инстаграмм" title="инстаграмм"></li>
+                    <li><img src="/images/inst.png" alt="инстаграмм" title="инстаграмм"></li>
                     <li><img src="/images/f.png" alt="facebook" title="facebook"></li>
                 </ul>
             </div>
