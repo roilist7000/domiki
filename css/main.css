@@ -110,6 +110,7 @@ img {
 
 header.header {
     background: green;
+    border-bottom: 2px solid white;
 }
 
 .menu ul li {
@@ -120,7 +121,48 @@ header.header {
 .menu ul li a {
     padding: 0;
     font-family: 'PTSansRegular';
-    color:  white;
+    color: white;
     text-transform: uppercase;
     font-size: 14px;
+    background: none !important;
+}
+.menu ul li.active,.menu ul li:hover {
+    background: #ffcc00;
+}
+
+.menu ul li.active a, .menu ul li:hover a {
+    color: black;
+}
+
+.menu ul li a {}
+
+.newnavbar {
+    margin-top:  10px;
+    margin-bottom: 10px;
+}
+
+.menu {margin-top: 10px;}
+
+.phone a,.phone
+span {
+    display: block;
+    font-family:  'PTSansRegular';
+    line-height: 1;
+}
+
+.phone a {
+    font-size: 24px;
+    color: white;
+    text-align: right;
+    text-decoration: none;
+}
+
+.phone span {
+    font-size: 12px;
+    text-align: right;
+    color: #ffcc00;
+}
+
+.phone {
+    margin-top: 5px;
 }
