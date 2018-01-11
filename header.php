@@ -24,9 +24,9 @@
 <body>
 <header class="header">
     <div class="container">
-        <div class="navbar navbar-top" role="navigation">
-            <div class="navbar-header">
-                <a href="/"><img src="images/logo.png"></a>
+        <div class="navbar navbar-top col-md-3 col-xs-12" role="navigation">
+            <div class="navbar-header logo">
+                <a href="/">domik<span>nsk.ru</span></a>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-top">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -34,11 +34,11 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>
-            <div class="collapse navbar-collapse navbar-collapse-top">
+            <div class="collapse navbar-collapse navbar-collapse-top menu col-md-4 col-md-offset-2">
                 <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="#">ВИДЕОКАМЕРЫ</a></li>
-                    <li><a href="#">ВИДЕОРЕГИСТРАТОРЫ</a></li>
-                    <li class="dropdown">
+                    <li class="active"><a href="#">Каталог коттеджей</a></li>
+                    <li><a href="#">услуги для вашего отдыха</a></li>
+                    <!--<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                            aria-expanded="true">освещение</a>
                         <ul class="dropdown-menu">
@@ -50,9 +50,12 @@
                             <li><a href="#">для дома</a></li>
                             <li class="right"><a href="#" class="menu-sale">SALE<span class="menu-sale-label">20%</span></a></li>
                         </ul>
-                    </li>
-                    <li><a href="#">монтаж</a></li>
+                    </li>-->
                 </ul>
+            </div>
+            <div class="col-md-3 col-xs-12 phone">
+                <a href="tel:+7 (962) 82 63 707">+7 (962) 82 63 707</a>
+                <span>заказать обратный звонок</span>
             </div>
         </div>
     </div>
