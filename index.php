@@ -23,10 +23,10 @@
         </div>
     </div>
 </div>
-            <div class="col-md-6 col-xs-12 right-main">
-<img src="/images/img01.png" alt="" title="">
-            </div>
         </div>
+            <div class="col-md-6 col-xs-12 right-main">
+                <img src="/images/img01.png" alt="" title="">
+            </div>
         </div>
     </div>
 </div>
