@@ -1,6 +1,6 @@
 <footer class="footer">
-    <div class="container hr_f">
-        <div class="navbar navbar-top row newnavbar" role="navigation">
+    <div class="container">
+        <div class="navbar navbar-top row newnavbar hr_f" role="navigation">
             <div class="navbar-header logo col-md-3 col-xs-12">
                 <a href="/">domik<span>nsk.ru</span></a>
             </div>
