@@ -54,11 +54,9 @@ html {
 }
 
 body {
-    font-family: 'RobotoRegular';
     color: #000;
     font-size: 16px;
     min-width: 320px;
-    padding-top: 90px;
 }
 
 a, a:hover {

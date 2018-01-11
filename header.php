@@ -34,7 +34,7 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>
-            <div class="collapse navbar-collapse navbar-collapse-top menu col-md-4 col-md-offset-2">
+            <div class="menu col-md-4 col-md-offset-2">
                 <ul class="nav navbar-nav navbar-left">
                     <li class="active"><a href="#">Каталог коттеджей</a></li>
                     <li><a href="#">услуги для вашего отдыха</a></li>
