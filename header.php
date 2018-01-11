@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="libs/chosen/chosen.min.css"/>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/media.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="css/whhg.css" />
 </head>
 <body>
 <header class="header">
