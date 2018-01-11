@@ -202,7 +202,7 @@ footer.footer {
 }
 .section-main {
     background: url(/images/fon01.jpg);
-    background-size: 100% auto;
+    background-size: initial;
     margin-top:  -75px;
     padding-top: 75px;
 }
