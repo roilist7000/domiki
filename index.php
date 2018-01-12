@@ -93,7 +93,7 @@
                         много парковочных мест</p>
                 </div>
                 <div class="col-md-4 col-xs-12 one-p">
-                    < class="img-responsive" src="/images/two-p.png" alt="" title="">
+                    <img class="img-responsive" src="/images/two-p.png" alt="" title="">
                     <p>Уникальный бассейн с подогревом оригинальной формы и работающий КРУГЛЫЙ ГОД!</p>
                 </div>
                 <div class="col-md-4 col-xs-12 one-p">
@@ -132,7 +132,7 @@
         </div>
         <div class="row row-all-obj">
             <div class="col-md-6 col-xs-12 one-obj">
-               <img class="img-responsive" src="/images/img-obj.png" alt="" title="">
+               <img class="img-responsive" src="/images/one-obj.png" alt="" title="">
                 <a class="cal">
                     <i class="icon-calendar"></i>
                     <span>свободные даты</span>
