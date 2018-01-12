@@ -151,6 +151,7 @@
 
                     </div>
                 </div>
+                <a class="href-s"><i class="icon-circleright"></i></a>
             </div>
         </div>
         <div class="row top-line">

@@ -501,3 +501,107 @@ a.cal span {
     position:  relative;
     top: -3px;
 }
+.lef-b-obj {
+    bottom: 0;
+    background: #000033;
+    padding: 15px 25px;
+    display: inline-block;
+    border-top:  1px solid white;
+    border-right: 1px solid white;
+}
+
+.lef-b-obj a {
+    color: #ffcc00;
+    width: 100%;
+    font-family: 'PTSansBold';
+    font-size: 18px;
+    text-transform: uppercase;
+    display:  block;
+    padding-bottom:  10px;
+    border-bottom:  1px solid white;
+    text-decoration: none;
+}
+
+.bottom-obj {
+    position:  absolute;
+    bottom: 0;
+    max-width: 85%;
+    width: 85%;
+}
+.lef-b-obj {
+    bottom: 0;
+    background: #000033;
+    padding: 15px 25px;
+    display: inline-block;
+    border-top:  1px solid white;
+    border-right: 1px solid white;
+}
+
+.lef-b-obj a {
+    color: #ffcc00;
+    width: 100%;
+    font-family: 'PTSansBold';
+    font-size: 18px;
+    text-transform: uppercase;
+    display:  block;
+    padding-bottom:  10px;
+    border-bottom:  1px solid white;
+    text-decoration: none;
+}
+
+.bottom-obj {
+    position:  absolute;
+    bottom: 0;
+    max-width: 85%;
+    width: 85%;
+}
+
+.obj-dop ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.obj-dop ul li {
+    color: white;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.obj-dop ul li span {
+    color: #ffcc00;
+    display:  inline-block;
+    margin-right: 10px;
+    font-family: 'PTSansRegular';
+    font-size: 14px;
+}
+
+.obj-dop ul li i {
+    display:  inline-block;
+    margin-right:  10px;
+    position:  relative;
+    top: 2px;
+}
+
+.bottom-obj > i {
+    color:  white;
+    font-size: 18px;
+    width: 35px;
+    display: inline-block;
+    height: 35px;
+    text-align:  center;
+    line-height: 33px;
+    border-radius: 200px;
+    border: 1px solid;
+    margin-right:  5px;
+    margin-left: 5px;
+    background:  #339933;
+    position:  relative;
+    top: -20px;
+}
+
+
+.one-obj {
+    margin-bottom: 15px;
+}
