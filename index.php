@@ -145,11 +145,10 @@
                             <li><i class="icon-mouse"></i><span>40</span></li>
                             <li><i class="icon-mouse"></i><span>15 000</span></li>
                         </ul>
-                            <i class="icon-mouse"></i>
-                            <i class="icon-mouse"></i>
                         </div>
-
                     </div>
+                    <i class="icon-mouse"></i>
+                    <i class="icon-mouse"></i>
                 </div>
                 <a class="href-s"><i class="icon-circleright"></i></a>
             </div>
