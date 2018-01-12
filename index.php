@@ -102,10 +102,12 @@
                 </div>
             </div>
             <div class="row row-b">
-                <div class="col-md-8 col-md-offset-1 col-xs-12 yel-b">
+                <div class="col-md-10 col-md-offset-1 col-xs-12 yel-b">
                     <span> Если Вы хотите снять коттедж на сутки в Новосибирске
 – лучшего варианта не найти!</span>
+                    <div class="btn-y">
                     <a>Подробнее <i class="icon-circleright"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
