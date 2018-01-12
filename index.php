@@ -132,7 +132,7 @@
         </div>
         <div class="row row-all-obj">
             <div class="col-md-6 col-xs-12 one-obj">
-               <img class="img-responsive" src="/images/one-obj.png" alt="" title="">
+               <img class="img-responsive" src="/images/one-obg.png" alt="" title="">
                 <a class="cal">
                     <i class="icon-calendar"></i>
                     <span>свободные даты</span>
