@@ -446,3 +446,58 @@ h1 {
     background:  #000033;
     border-color: #000033;
 }
+.top-line span {
+    color: #000033;
+    font-family:  'PTSansBold';
+    font-size: 30px;
+}
+
+.breadcrumbs ul {
+    list-style: none;
+    padding:  0;
+}
+
+.breadcrumbs ul
+li {
+    display: inline-block;
+    width: 30px;
+    background: #000033;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 200px;
+}
+
+.breadcrumbs ul li a {
+    color: white;
+    font-size: 22px;
+    width:  20px;
+    height:  20px;
+    text-decoration: none;
+}
+
+.breadcrumbs ul li i {
+    font-size: 16px;
+}
+
+.top-line {
+    margin-bottom: 25px;
+}
+
+a.cal {
+    position:  absolute;
+    z-index:  999;
+    top: 0;
+    right: 15px;
+    background:  #339933;
+    color:  white;
+    padding: 5px 15px;
+    font-family: 'PTSansBold';
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a.cal span {
+    position:  relative;
+    top: -3px;
+}

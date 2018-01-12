@@ -137,6 +137,35 @@
                     <i class="icon-calendar"></i>
                     <span>свободные даты</span>
                 </a>
+                <div class="bottom-obj">
+                    <div class="lef-b-obj">
+                        <a>коттедж название длинное</a>
+                        <div class="obj-dop">
+                        <ul><li><i class="icon-mouse"></i><span>10</span></li>
+                            <li><i class="icon-mouse"></i><span>40</span></li>
+                            <li><i class="icon-mouse"></i><span>15 000</span></li>
+                        </ul>
+                            <i class="icon-mouse"></i>
+                            <i class="icon-mouse"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row top-line">
+            <div class="breadcrumbs col-md-8 col-md-offset-4 col-xs-12 text-right new-br">
+                <ul>
+                    <li><a><i class="icon-arrow-left"></i></a></li>
+                    <li><a>1</a></li>
+                    <li><a>2</a></li>
+                    <li><a>3</a></li>
+                    <li><a>4</a></li>
+                    <li><a>5</a></li>
+                    <li><a>6</a></li>
+                    <li><a>7</a></li>
+                    <li><a><i class="icon-arrow-right"></i></a></li>
+                </ul>
             </div>
         </div>
     </div>
