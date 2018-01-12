@@ -29,7 +29,7 @@
             </div>
         </div>
     </div>
-
+</div>
     <div class="section-two-main">
         <div class="container">
             <div class="row">
