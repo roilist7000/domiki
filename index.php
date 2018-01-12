@@ -25,7 +25,7 @@
 </div>
         </div>
             <div class="col-md-6 col-xs-12 right-main">
-                <img src="/images/img01.png" alt="" title="">
+                <img class="img-responsive" src="/images/img01.png" alt="" title="">
             </div>
         </div>
     </div>
@@ -87,17 +87,17 @@
             </div>
             <div class="row row-p">
                 <div class="col-md-4 col-xs-12 one-p">
-                    <img src="/images/one-p.png" alt="" title="">
+                    <img class="img-responsive" src="/images/one-p.png" alt="" title="">
                     <p>Специально укомплектованный дом для проведения различных мероприятий, таких как: Дни Рождения, Свадьбы, Корпоративы, Дискотеки и любые другие памятные даты.
                         Большая вместимость,
                         много парковочных мест</p>
                 </div>
                 <div class="col-md-4 col-xs-12 one-p">
-                    <img src="/images/two-p.png" alt="" title="">
+                    < class="img-responsive" src="/images/two-p.png" alt="" title="">
                     <p>Уникальный бассейн с подогревом оригинальной формы и работающий КРУГЛЫЙ ГОД!</p>
                 </div>
                 <div class="col-md-4 col-xs-12 one-p">
-                    <img src="/images/three-p.png" alt="" title="">
+                    <img class="img-responsive" src="/images/three-p.png" alt="" title="">
                     <p>Сауна, джакузи, мангал и казан в доме, банкетные столы,  акустическая система, интернет,кинопроектор с большим экраном, большой бильярдный стол с каменной столешницей, профессиональный настольный мини футбол.</p>
                 </div>
             </div>
@@ -112,4 +112,33 @@
             </div>
         </div>
     </div>
+<div class="section-all">
+    <div class="container">
+        <div class="row top-line">
+            <div class="col-md-4 col-xs-12"><span>КАТАЛОГ КОТТЕДЖЕЙ</span></div>
+            <div class="breadcrumbs col-md-8 col-xs-12 text-right">
+                <ul>
+                    <li><a><i class="icon-arrow-left"></i></a></li>
+<li><a>1</a></li>
+                    <li><a>2</a></li>
+                    <li><a>3</a></li>
+                    <li><a>4</a></li>
+                    <li><a>5</a></li>
+                    <li><a>6</a></li>
+                    <li><a>7</a></li>
+                    <li><a><i class="icon-arrow-right"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row row-all-obj">
+            <div class="col-md-6 col-xs-12 one-obj">
+               <img class="img-responsive" src="/images/img-obj.png" alt="" title="">
+                <a class="cal">
+                    <i class="icon-calendar"></i>
+                    <span>свободные даты</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 <? require("footer.php"); ?>
