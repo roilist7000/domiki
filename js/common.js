@@ -49,7 +49,17 @@ $(document).ready(function () {
         $(this).parents('.btn-group').removeClass('open');
         return false;
     });
+$('.sub').click(function () {
+    console.log($(this).hasClass('.act'));
+    if($(this).hasClass('act')==false){
+        $('.menu-cont').addClass('active');
+        $(this).addClass('act');
 
+    } else {
+        $('.menu-cont').removeClass('active');
+        $(this).removeClass('act');
+    }
+});
 });
 
 
