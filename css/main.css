@@ -649,3 +649,169 @@ span {
 .section-contact {
     margin-bottom: 40px;
 }
+.menu-cont {
+    position:  absolute;
+    width: 100%;
+    z-index: 999;
+    display: none;
+    top: 47px;
+}
+
+.dp-m {
+    background: white;
+    border: 4px solid #ffcc00;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.sub-menu ul {
+    list-style:  none;
+    padding-left: 0;
+    -webkit-column-width: 50%;
+    -moz-column-width: 50%;
+    column-width: 50%;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 0px;
+    -moz-column-gap: 0px;
+    column-gap: 0px;
+}
+
+.sub-menu ul li
+a {
+    color: #000033;
+    font-family: 'PTSansRegular';
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.sub-menu ul li a i {
+    font-size: 24px;
+    display: inline-block;
+    margin-right: 15px;
+    position:  relative;
+    top: 4px;
+}
+
+.sub-menu ul li {
+    padding-bottom: 20px;
+}
+
+.prem-block {
+    background: #f6e59f;
+}
+
+.prem-pr {
+    position:  relative;
+    overflow: hidden;
+}
+
+.title-prem i {
+    background: linear-gradient(45deg, #5c94ff 33%, #55d4ff 66%, #8AA9D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: -3px;
+}
+
+.title-prem > div {
+    display: inline-block;
+    float:  left;
+    padding-left: 10px;
+}
+
+.title-prem {
+    position:  relative;
+    display:  block;
+    width: 100%;
+    overflow: hidden;
+    padding-left:  15px;
+    padding-right: 15px;
+    padding-top:  25px;
+    padding-bottom: 25px;
+}
+
+.title-prem > div h4 {
+    color: #000033;
+    font-family:  'PTSansRegular';
+    font-size: 30px;
+    margin: 0;
+}
+.title-prem > div span {
+    color: #000033;
+    font-family:  'PTSansRegular';
+    font-size: 18px;
+    margin: 0;
+}
+.title-prem > div span a {
+    color: #0099cc;
+}
+
+
+.one-prem:first-child {
+    padding-right: 7.5px;
+}
+
+.one-prem:last-child {
+    padding-left: 7.5px;
+}
+
+.one-prem > a i {
+    position:  absolute;
+    bottom: 0px;
+    right: 5px;
+    color:  white;
+    font-size: 25px;
+}
+
+.one-prem > a {
+    position:  relative;
+    overflow:  hidden;
+    height:  100%;
+    display: block;
+}
+
+.one-prem > span {
+    display:  block;
+    width: 100%;
+    color: #000033;
+    font-family: 'PTSansRegular';
+    font-size: 14px;
+    line-height:  1.3;
+    margin-top:  15px;
+    margin-bottom: 30px;
+}
+
+.prem-menu > p {
+    color: #000033;
+    font-family: 'PTSansRegular';
+    font-size: 12px;
+    text-align: justify;
+    line-height:  1.3;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.one-prem > span a {
+    text-decoration: none;
+}
+
+.menu-cont.active {
+    display: block;
+}
+
+.menu ul li.act {
+    background: #ffcc00;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius:  15px;
+    border-top-right-radius: 15px;
+}
+
+.menu ul li.act a {
+    color: #000333;
+}

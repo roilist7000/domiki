@@ -47,6 +47,7 @@
             </div>
         </div>
     </div>
+    <div class="menu-cont">
     <div class="container cont-menu">
         <div class="row">
             <div class="dp-m">
@@ -80,8 +81,8 @@
                                     <span>найдено 2 варианта <a>показать все</a></span>
                                 </div>
                             </div>
-                            <div class="prem-pr row">
-                                <div class="col-md-6 col-xs-12">
+                            <div class="prem-pr">
+                                <div class="col-md-6 col-xs-12 one-prem">
                                     <a>
                                     <img src="/images/one-prem.png" alt="" title="">
                                         <i class="icon-circleright"></i>
@@ -91,7 +92,7 @@
                                         аренда от 20 000 руб.</a>
                                         </span>
                                 </div>
-                                <div class="col-md-6 col-xs-12">
+                                <div class="col-md-6 col-xs-12 one-prem">
                                     <a>
                                         <img src="/images/ne-prem.png" alt="" title="">
                                         <i class="icon-circleright"></i>
@@ -108,5 +109,6 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </header>
