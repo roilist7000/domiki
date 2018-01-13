@@ -39,24 +39,73 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#">Каталог коттеджей</a></li>
                     <li><a href="#">услуги для вашего отдыха</a></li>
-                    <!--<li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="true">освещение</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Офисные</a></li>
-                            <li><a href="#">промышленные</a></li>
-                            <li><a href="#">уличные</a></li>
-                            <li><a href="#">линейные</a></li>
-                            <li><a href="#">торговые</a></li>
-                            <li><a href="#">для дома</a></li>
-                            <li class="right"><a href="#" class="menu-sale">SALE<span class="menu-sale-label">20%</span></a></li>
-                        </ul>
-                    </li>-->
                 </ul>
             </div>
             <div class="col-md-3 col-xs-12 phone">
                 <a href="tel:+7 (962) 82 63 707">+7 (962) 82 63 707</a>
                 <span>заказать обратный звонок</span>
+            </div>
+        </div>
+    </div>
+    <div class="container cont-menu">
+        <div class="row">
+            <div class="dp-m">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12 col-md-offset-1 sub-menu">
+                        <ul>
+                            <li><a><i class="icon-mouse"></i><span>Большая парковка (5)</span></a></li>
+                            <li><a><i class="icon-mouse"></i><span>Большая парковка (5)</span></a></li>
+                            <li><a><i class="icon-mouse"></i><span>Большая парковка (5)</span></a></li>
+                            <li><a><i class="icon-mouse"></i><span>Большая парковка (5)</span></a></li>
+                            <li><a><i class="icon-mouse"></i><span>Большая парковка (5)</span></a></li>
+                            <li><a><i class="icon-mouse"></i><span>Большая парковка (5)</span></a></li>
+                            <li><a><i class="icon-mouse"></i><span>Большая парковка (5)</span></a></li>
+                            <li><a><i class="icon-mouse"></i><span>Большая парковка (5)</span></a></li>
+                            <li><a><i class="icon-mouse"></i><span>Большая парковка (5)</span></a></li>
+                            <li><a><i class="icon-mouse"></i><span>Большая парковка (5)</span></a></li>
+                            <li><a><i class="icon-mouse"></i><span>Большая парковка (5)</span></a></li>
+                            <li><a><i class="icon-mouse"></i><span>Большая парковка (5)</span></a></li>
+                            <li><a><i class="icon-mouse"></i><span>Большая парковка (5)</span></a></li>
+                            <li><a><i class="icon-mouse"></i><span>Большая парковка (5)</span></a></li>
+                            <li><a><i class="icon-mouse"></i><span>Большая парковка (5)</span></a></li>
+                            <li><a><i class="icon-mouse"></i><span>Большая парковка (5)</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-xs-12 prem-menu">
+                        <div class="prem-block">
+                            <div class="title-prem">
+                                <i class="icon-mouse"></i>
+                                <div>
+                                   <h4>Бассейн</h4>
+                                    <span>найдено 2 варианта <a>показать все</a></span>
+                                </div>
+                            </div>
+                            <div class="prem-pr row">
+                                <div class="col-md-6 col-xs-12">
+                                    <a>
+                                    <img src="/images/one-prem.png" alt="" title="">
+                                        <i class="icon-circleright"></i>
+                                    </a>
+                                    <span>
+                                    <a>Название коттеджа<br/>
+                                        аренда от 20 000 руб.</a>
+                                        </span>
+                                </div>
+                                <div class="col-md-6 col-xs-12">
+                                    <a>
+                                        <img src="/images/ne-prem.png" alt="" title="">
+                                        <i class="icon-circleright"></i>
+                                    </a>
+                                    <span>
+                                    <a>Название коттеджа<br/>
+                                        аренда от 20 000 руб.</a>
+                                        </span>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Коттедж известный каждому в Новосибирске с бассейном! Специально укомплектованный дом для проведения различных мероприятий, таких как: Дни Рождения, Свадьбы, Корпоративы,  Дискотеки и любые другие памятные даты. Уникальный бассейн с подогревом оригинальной формы и работающий КРУГЛЫЙ ГОД! Сауна, джакузи, мангал и казан в доме, банкетные столы,  акустическая система, интернет,кинопроектор с большим экраном, большой бильярдный стол с каменной столешницей, профессиональный настольный мини футбол, много парковочных мест. Если Вы хотите снять коттедж на сутки в Новосибирске – лучшего варианта не найти.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
