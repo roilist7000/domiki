@@ -9,7 +9,7 @@
         <div class="row uslugi">
 
                 <div class="col-md-6 col-xs-12 prem-menu prem-usl">
-                    <input style="display:none;" type="radio" name="1" value="true" checked="false">
+                    <input style="display:none;" type="radio" name="2" value="false">
                     <div class="prem-block">
                         <i class="icon-ok-circle ok"></i>
                         <div class="title-prem">
@@ -55,7 +55,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xs-12 prem-menu prem-usl">
-                    <input style="display:none;" type="radio" name="1" value="true" checked="false">
+                    <input style="display:none;" type="radio" name="2" value="false">
                     <div class="prem-block">
                         <i class="icon-ok-circle ok"></i>
                         <div class="title-prem">
@@ -101,7 +101,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xs-12 prem-menu prem-usl">
-                    <input style="display:none;" type="radio" name="1" value="true" checked="false">
+                    <input style="display:none;" type="radio" name="2" value="false">
                     <div class="prem-block">
                         <i class="icon-ok-circle ok"></i>
                         <div class="title-prem">
@@ -147,7 +147,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xs-12 prem-menu prem-usl">
-                    <input style="display:none;" type="radio" name="1" value="true" checked="false">
+                    <input style="display:none;" type="radio" name="2" value="false">
                     <div class="prem-block">
                         <i class="icon-ok-circle ok"></i>
                         <div class="title-prem">
@@ -193,7 +193,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xs-12 prem-menu prem-usl">
-                    <input style="display:none;" type="radio" name="1" value="true" checked="false">
+                    <input style="display:none;" type="radio" name="2" value="false">
                     <div class="prem-block">
                         <i class="icon-ok-circle ok"></i>
                         <div class="title-prem">
@@ -239,7 +239,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xs-12 prem-menu prem-usl">
-                    <input style="display:none;" type="radio" name="1" value="true" checked="false">
+                    <input style="display:none;" type="radio" name="2" value="false">
                     <div class="prem-block">
                         <i class="icon-ok-circle ok"></i>
                         <div class="title-prem">

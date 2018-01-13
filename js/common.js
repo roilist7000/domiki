@@ -62,10 +62,10 @@ $('.sub').click(function () {
 $('.ok').click(function () {
     if($(this).parent().parent().hasClass('prem-active')==false){
         $(this).parent().parent().addClass('prem-active');
-        $(this).parent().parent().find('input').attr('checked', true);
+        $(this).parent().parent().find('input').attr('value', true);
     } else {
         $(this).parent().parent().removeClass('prem-active');
-        $(this).parent().parent().find('input').attr('checked', false);
+        $(this).parent().parent().find('input').attr('value', false);
     }
 
 });
