@@ -930,3 +930,26 @@ a {
 strong {
     font-family: 'PTSansBold';
 }
+.section-usluga {
+    background-size: cover !important;
+    background-position: center !important;
+    padding-top: 80px;
+    padding-bottom: 125px;
+}
+
+.sec-usluga h1 {
+    display: inline-block;
+    font-family:  'PTSansBold';
+    text-transform: uppercase;
+    color:  white;
+    font-size: 48px;
+    max-width: 65%;
+    padding-left: 25px;
+}
+
+.sec-usluga i {
+    color:  white;
+    font-size: 60px;
+    position:  relative;
+    top: -14px;
+}

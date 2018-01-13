@@ -1,7 +1,7 @@
 <? require("header.php"); ?>
     <div class="section-main">
     </div>
-<div class="section-usluga">
+    <div class="section-usluga" style="background: url(/images/back-usl.png);">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 sec-usluga">
