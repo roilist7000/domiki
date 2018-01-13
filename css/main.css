@@ -449,7 +449,7 @@ h1 {
 .top-line span {
     color: #000033;
     font-family:  'PTSansBold';
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .breadcrumbs ul {
@@ -908,4 +908,25 @@ a {
 .rowbt-usl {
     margin-top:  20px;
     margin-bottom: 45px;
+}
+.section_desc img {
+    float: left;
+    margin-right: 15px;
+}
+
+.section_desc p {
+    color: #000033;
+    font-family: 'PTSansRegular';
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.section_desc {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.section_desc p
+strong {
+    font-family: 'PTSansBold';
 }
