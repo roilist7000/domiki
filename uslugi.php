@@ -1,21 +1,27 @@
 <? require("header.php"); ?>
+    <div class="section-main">
+    </div>
 <div class="section-usugi">
+    <form>
     <div class="container">
+        <h1>услуги для вашего отдыха</h1>
+        <h3>Отметте все, что вам необходимо, и подберите идеальный вариант</h3>
         <div class="row uslugi">
-           <h1>услуги для вашего отдыха</h1>
-            <h3>Отметте все, что вам необходимо, и подберите идеальный вариант</h3>
-            <form>
-                <div class="col-md-4 col-xs-12 prem-menu">
+
+                <div class="col-md-6 col-xs-12 prem-menu prem-usl">
+                    <input style="display:none;" type="radio" name="1" value="true" checked="false">
                     <div class="prem-block">
+                        <i class="icon-ok-circle ok"></i>
                         <div class="title-prem">
                             <i class="icon-mouse"></i>
                             <div>
                                 <h4>Бассейн</h4>
                                 <span>найдено 2 варианта <a>показать все</a></span>
                             </div>
+
                         </div>
                         <div class="prem-pr">
-                            <div class="col-md-6 col-xs-12 one-prem">
+                            <div class="col-md-4 col-xs-12 one-prem">
                                 <a>
                                     <img src="/images/one-prem.png" alt="" title="">
                                     <i class="icon-circleright"></i>
@@ -25,7 +31,17 @@
                                         аренда от 20 000 руб.</a>
                                         </span>
                             </div>
-                            <div class="col-md-6 col-xs-12 one-prem">
+                            <div class="col-md-4 col-xs-12 one-prem">
+                                <a>
+                                    <img src="/images/one-prem.png" alt="" title="">
+                                    <i class="icon-circleright"></i>
+                                </a>
+                                <span>
+                                    <a>Название коттеджа<br/>
+                                        аренда от 20 000 руб.</a>
+                                        </span>
+                            </div>
+                            <div class="col-md-4 col-xs-12 one-prem">
                                 <a>
                                     <img src="/images/ne-prem.png" alt="" title="">
                                     <i class="icon-circleright"></i>
@@ -37,12 +53,238 @@
                             </div>
                         </div>
                     </div>
-                    <p>Коттедж известный каждому в Новосибирске с бассейном! Специально укомплектованный дом для проведения различных мероприятий, таких как: Дни Рождения, Свадьбы, Корпоративы,  Дискотеки и любые другие памятные даты. Уникальный бассейн с подогревом оригинальной формы и работающий КРУГЛЫЙ ГОД! Сауна, джакузи, мангал и казан в доме, банкетные столы,  акустическая система, интернет,кинопроектор с большим экраном, большой бильярдный стол с каменной столешницей, профессиональный настольный мини футбол, много парковочных мест. Если Вы хотите снять коттедж на сутки в Новосибирске – лучшего варианта не найти.</p>
                 </div>
-            </form>
+                <div class="col-md-6 col-xs-12 prem-menu prem-usl">
+                    <input style="display:none;" type="radio" name="1" value="true" checked="false">
+                    <div class="prem-block">
+                        <i class="icon-ok-circle ok"></i>
+                        <div class="title-prem">
+                            <i class="icon-mouse"></i>
+                            <div>
+                                <h4>Бассейн</h4>
+                                <span>найдено 2 варианта <a>показать все</a></span>
+                            </div>
+
+                        </div>
+                        <div class="prem-pr">
+                            <div class="col-md-4 col-xs-12 one-prem">
+                                <a>
+                                    <img src="/images/one-prem.png" alt="" title="">
+                                    <i class="icon-circleright"></i>
+                                </a>
+                                <span>
+                                    <a>Название коттеджа<br/>
+                                        аренда от 20 000 руб.</a>
+                                        </span>
+                            </div>
+                            <div class="col-md-4 col-xs-12 one-prem">
+                                <a>
+                                    <img src="/images/one-prem.png" alt="" title="">
+                                    <i class="icon-circleright"></i>
+                                </a>
+                                <span>
+                                    <a>Название коттеджа<br/>
+                                        аренда от 20 000 руб.</a>
+                                        </span>
+                            </div>
+                            <div class="col-md-4 col-xs-12 one-prem">
+                                <a>
+                                    <img src="/images/ne-prem.png" alt="" title="">
+                                    <i class="icon-circleright"></i>
+                                </a>
+                                <span>
+                                    <a>Название коттеджа<br/>
+                                        аренда от 20 000 руб.</a>
+                                        </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 prem-menu prem-usl">
+                    <input style="display:none;" type="radio" name="1" value="true" checked="false">
+                    <div class="prem-block">
+                        <i class="icon-ok-circle ok"></i>
+                        <div class="title-prem">
+                            <i class="icon-mouse"></i>
+                            <div>
+                                <h4>Бассейн</h4>
+                                <span>найдено 2 варианта <a>показать все</a></span>
+                            </div>
+
+                        </div>
+                        <div class="prem-pr">
+                            <div class="col-md-4 col-xs-12 one-prem">
+                                <a>
+                                    <img src="/images/one-prem.png" alt="" title="">
+                                    <i class="icon-circleright"></i>
+                                </a>
+                                <span>
+                                    <a>Название коттеджа<br/>
+                                        аренда от 20 000 руб.</a>
+                                        </span>
+                            </div>
+                            <div class="col-md-4 col-xs-12 one-prem">
+                                <a>
+                                    <img src="/images/one-prem.png" alt="" title="">
+                                    <i class="icon-circleright"></i>
+                                </a>
+                                <span>
+                                    <a>Название коттеджа<br/>
+                                        аренда от 20 000 руб.</a>
+                                        </span>
+                            </div>
+                            <div class="col-md-4 col-xs-12 one-prem">
+                                <a>
+                                    <img src="/images/ne-prem.png" alt="" title="">
+                                    <i class="icon-circleright"></i>
+                                </a>
+                                <span>
+                                    <a>Название коттеджа<br/>
+                                        аренда от 20 000 руб.</a>
+                                        </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 prem-menu prem-usl">
+                    <input style="display:none;" type="radio" name="1" value="true" checked="false">
+                    <div class="prem-block">
+                        <i class="icon-ok-circle ok"></i>
+                        <div class="title-prem">
+                            <i class="icon-mouse"></i>
+                            <div>
+                                <h4>Бассейн</h4>
+                                <span>найдено 2 варианта <a>показать все</a></span>
+                            </div>
+
+                        </div>
+                        <div class="prem-pr">
+                            <div class="col-md-4 col-xs-12 one-prem">
+                                <a>
+                                    <img src="/images/one-prem.png" alt="" title="">
+                                    <i class="icon-circleright"></i>
+                                </a>
+                                <span>
+                                    <a>Название коттеджа<br/>
+                                        аренда от 20 000 руб.</a>
+                                        </span>
+                            </div>
+                            <div class="col-md-4 col-xs-12 one-prem">
+                                <a>
+                                    <img src="/images/one-prem.png" alt="" title="">
+                                    <i class="icon-circleright"></i>
+                                </a>
+                                <span>
+                                    <a>Название коттеджа<br/>
+                                        аренда от 20 000 руб.</a>
+                                        </span>
+                            </div>
+                            <div class="col-md-4 col-xs-12 one-prem">
+                                <a>
+                                    <img src="/images/ne-prem.png" alt="" title="">
+                                    <i class="icon-circleright"></i>
+                                </a>
+                                <span>
+                                    <a>Название коттеджа<br/>
+                                        аренда от 20 000 руб.</a>
+                                        </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 prem-menu prem-usl">
+                    <input style="display:none;" type="radio" name="1" value="true" checked="false">
+                    <div class="prem-block">
+                        <i class="icon-ok-circle ok"></i>
+                        <div class="title-prem">
+                            <i class="icon-mouse"></i>
+                            <div>
+                                <h4>Бассейн</h4>
+                                <span>найдено 2 варианта <a>показать все</a></span>
+                            </div>
+
+                        </div>
+                        <div class="prem-pr">
+                            <div class="col-md-4 col-xs-12 one-prem">
+                                <a>
+                                    <img src="/images/one-prem.png" alt="" title="">
+                                    <i class="icon-circleright"></i>
+                                </a>
+                                <span>
+                                    <a>Название коттеджа<br/>
+                                        аренда от 20 000 руб.</a>
+                                        </span>
+                            </div>
+                            <div class="col-md-4 col-xs-12 one-prem">
+                                <a>
+                                    <img src="/images/one-prem.png" alt="" title="">
+                                    <i class="icon-circleright"></i>
+                                </a>
+                                <span>
+                                    <a>Название коттеджа<br/>
+                                        аренда от 20 000 руб.</a>
+                                        </span>
+                            </div>
+                            <div class="col-md-4 col-xs-12 one-prem">
+                                <a>
+                                    <img src="/images/ne-prem.png" alt="" title="">
+                                    <i class="icon-circleright"></i>
+                                </a>
+                                <span>
+                                    <a>Название коттеджа<br/>
+                                        аренда от 20 000 руб.</a>
+                                        </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 prem-menu prem-usl">
+                    <input style="display:none;" type="radio" name="1" value="true" checked="false">
+                    <div class="prem-block">
+                        <i class="icon-ok-circle ok"></i>
+                        <div class="title-prem">
+                            <i class="icon-mouse"></i>
+                            <div>
+                                <h4>Бассейн</h4>
+                                <span>найдено 2 варианта <a>показать все</a></span>
+                            </div>
+
+                        </div>
+                        <div class="prem-pr">
+                            <div class="col-md-4 col-xs-12 one-prem">
+                                <a>
+                                    <img src="/images/one-prem.png" alt="" title="">
+                                    <i class="icon-circleright"></i>
+                                </a>
+                                <span>
+                                    <a>Название коттеджа<br/>
+                                        аренда от 20 000 руб.</a>
+                                        </span>
+                            </div>
+                            <div class="col-md-4 col-xs-12 one-prem">
+                                <a>
+                                    <img src="/images/one-prem.png" alt="" title="">
+                                    <i class="icon-circleright"></i>
+                                </a>
+                                <span>
+                                    <a>Название коттеджа<br/>
+                                        аренда от 20 000 руб.</a>
+                                        </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
+        <div class="row rowbt-usl">
+            <div class="col-md-6 col-xs-12 l-but">
+               <a><i class="icon-circleleft"></i><span>вернуться в каталог</span></a>
+            </div>
+            <div class="col-md-6 col-xs-12 l-but">
+                <input type="submit" value="подобрать">
+            </div>
+        </div>
+        </form>
     </div>
-</div>
 <div class="section-contact">
     <div class="container">
         <div class="row">

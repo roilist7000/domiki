@@ -652,7 +652,7 @@ span {
 .menu-cont {
     position:  absolute;
     width: 100%;
-    z-index: 999;
+    z-index: 1000;
     display: none;
     top: 47px;
 }
@@ -700,6 +700,7 @@ a {
 
 .prem-block {
     background: #f6e59f;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 .prem-pr {
@@ -814,4 +815,97 @@ a {
 
 .menu ul li.act a {
     color: #000333;
+}
+.one-prem:nth-child(2) {
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.prem-menu.prem-usl .prem-block {
+    padding-bottom: 15px;
+    background: white;
+}
+
+.section-usugi h1 {
+    color: #000033;
+    font-family:  'PTSansBold';
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-bottom: 5px;
+}
+
+.section-usugi h3 {
+    color: #000033;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: 'PTSansRegular';
+    font-size: 30px;
+}
+
+.prem-menu.prem-usl {
+    margin-bottom: 20px;
+}
+.ok {
+    position: absolute;
+    color: grey;
+    font-size: 30px;
+    right: 30px;
+    top: 25px;
+    cursor: pointer;
+    z-index: 999;
+}
+.prem-menu.prem-usl.prem-active .prem-block {
+    background: #f6e59f;
+}
+
+.prem-menu.prem-usl.prem-active .prem-block > i {
+    color: #cc3300;
+}
+.l-but a {
+    color: #000033;
+    font-family:  'PTSansRegular';
+    font-size: 22px;
+    padding: 5px 30px;
+    display: inline-block;
+    border: 2px solid #000033;
+    border-radius: 26px;
+    line-height: 17px;
+    height: 47px;
+    text-decoration: none;
+}
+
+.l-but a span {
+    display:  inline-block;
+    margin-left: 10px;
+}
+
+.l-but a i {
+    font-size: 26px;
+    position:  relative;
+    top: 7px;
+}
+
+.l-but a:hover {
+    background: #ffcc00;
+}
+
+.l-but input {
+    color: #ffcc00;
+    font-family: 'PTSansBold';
+    font-size: 22px;
+    padding: 5px 75px;
+    display: inline-block;
+    border: 2px solid #ffcc00;
+    border-radius: 26px;
+    line-height: 17px;
+    height: 47px;
+    text-decoration: none;
+    background: #000033;
+    float: right;
+    text-transform: uppercase;
+}
+
+.rowbt-usl {
+    margin-top:  20px;
+    margin-bottom: 45px;
 }

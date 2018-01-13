@@ -50,7 +50,6 @@ $(document).ready(function () {
         return false;
     });
 $('.sub').click(function () {
-    console.log($(this).hasClass('.act'));
     if($(this).hasClass('act')==false){
         $('.menu-cont').addClass('active');
         $(this).addClass('act');
@@ -59,6 +58,16 @@ $('.sub').click(function () {
         $('.menu-cont').removeClass('active');
         $(this).removeClass('act');
     }
+});
+$('.ok').click(function () {
+    if($(this).parent().parent().hasClass('prem-active')==false){
+        $(this).parent().parent().addClass('prem-active');
+        $(this).parent().parent().find('input').attr('checked', true);
+    } else {
+        $(this).parent().parent().removeClass('prem-active');
+        $(this).parent().parent().find('input').attr('checked', false);
+    }
+
 });
 });
 
