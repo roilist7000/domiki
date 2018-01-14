@@ -125,7 +125,7 @@
         tmp+='<\/tr>';
 
         // Шапка таблицы с днями недели
-        tmp+='<tr>';
+        tmp+='<tr class="dayts">';
         tmp+='<th>'+calendar.dayName[0]+'<\/th>';
         tmp+='<th>'+calendar.dayName[1]+'<\/th>';
         tmp+='<th>'+calendar.dayName[2]+'<\/th>';
@@ -153,7 +153,7 @@
             }
             // Пустые ячейки до начала месяца или после окончания
             if ((index<start_day) || (index>=(total_days+start_day))) {
-                tmp+='<td class="grayed">&nbsp;<\/td>';
+                tmp+='<td class="grayed nonegr">&nbsp;<\/td>';
             }
             else {
                 var class_name='';
@@ -170,7 +170,7 @@
                 // Ячейка с датой
                 tmp+='<td class="'+class_name+'" '+
                     'onclick="calendar.selectDate('+
-                    day+','+month+','+year+');">'+day+'<\/td>';
+                    day+','+month+','+year+');"><span>'+day+'</span><\/td>';
                 day++;
             }
             // Конец строки таблицы

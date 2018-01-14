@@ -26,10 +26,10 @@
     <style type="text/css">
         /* Таблица календарика */
         .calendar {
-            border: 1px solid #909090;
             border-collapse: collapse;
             font-family: Arial;
             font-size: 14px;
+            width: 100%;
         }
         /* Заголовок */
         .calendar th {
@@ -38,7 +38,6 @@
             height: 36px;
             background: #D0D0D0;
             color: #000000;
-            border: 1px solid #909090;
         }
         /* Заголовок праздника */
         .calendar th.holiday {
@@ -46,24 +45,35 @@
         }
         /* Ячейка дня */
         .calendar td {
-            text-align: right;
             width: 28px;
             height: 36px;
-            padding-right: 8px;
-            border: 1px solid #909090;
-            text-align: right;
             cursor: pointer;
+            text-align: center;
+            font-family: 'PTSansRegular';
+            color: #000333;
+            font-size: 14px;
+        }
+        .calendar td.grayed.nonegr {
+            background: none;
+        }
+        .calendar td span {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            display: block;
+            height: 34px;
+            border: 1px solid #cccccc;
+            line-height: 34px;
+            background: #e7e7e7;
         }
         /* Затемненный день */
         .calendar td.grayed {
-            background: #F0F0F0;
             cursor: auto !important;
         }
         /* Выбранный день */
-        .calendar td.selected {
+        .calendar td.selected span {
             background: #6DAFBF;
             color: #FFFFFF;
-            box-shadow: 1px 1px rgba(255, 255, 255, 0.5) inset;
         }
         /* Праздничный день */
         .calendar td.holiday {
@@ -73,9 +83,22 @@
         .calendar td.navigation {
             text-align: center;
             border: 0px none !important;
-            font-size: 20px;
             cursor: pointer;
             white-space: nowrap;
+            background: #e7e7e7;
+            color: #000333;
+            font-family: 'PTSansBold';
+            font-size: 14px;
+        }
+        .calendar .dayts th {
+            background: #cccccc;
+            color: #000333;
+            font-family: 'PTSansRegular';
+            font-size: 14px;
+        }
+
+        .calendar .dayts th.holiday {
+            color: #993333;
         }
     </style>
 

@@ -73,7 +73,11 @@
     </div>
     <div class="row row-do">
         <div class="col-md-6 col-xs-12 line-c">
+            <div class="sv-date">
+                свободные даты
+            </div>
             <div id="calendar_table"></div>
+            <span>Забронировано</span>
             <a class="b-but"><span>бронировать</span><i class="icon-tagalt-pricealt"></i></a>
         </div>
         <div class="col-xs-12 col-md-6 line-otz">
