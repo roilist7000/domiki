@@ -2,14 +2,14 @@
     <div class="section-main">
     </div>
 <div class="section-usugi">
-    <form>
+    <form method="GET">
     <div class="container">
         <h1>услуги для вашего отдыха</h1>
         <h3>Отметте все, что вам необходимо, и подберите идеальный вариант</h3>
         <div class="row uslugi">
 
                 <div class="col-md-6 col-xs-12 prem-menu prem-usl">
-                    <input style="display:none;" type="radio" name="2" value="false">
+                    <input style="display:none;" type="radio" name="1" value="false">
                     <div class="prem-block">
                         <i class="icon-ok-circle ok"></i>
                         <div class="title-prem">
@@ -101,7 +101,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xs-12 prem-menu prem-usl">
-                    <input style="display:none;" type="radio" name="2" value="false">
+                    <input style="display:none;" type="radio" name="3" value="false">
                     <div class="prem-block">
                         <i class="icon-ok-circle ok"></i>
                         <div class="title-prem">
@@ -147,7 +147,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xs-12 prem-menu prem-usl">
-                    <input style="display:none;" type="radio" name="2" value="false">
+                    <input style="display:none;" type="radio" name="4" value="false">
                     <div class="prem-block">
                         <i class="icon-ok-circle ok"></i>
                         <div class="title-prem">
@@ -193,7 +193,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xs-12 prem-menu prem-usl">
-                    <input style="display:none;" type="radio" name="2" value="false">
+                    <input style="display:none;" type="radio" name="5" value="false">
                     <div class="prem-block">
                         <i class="icon-ok-circle ok"></i>
                         <div class="title-prem">
@@ -239,7 +239,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xs-12 prem-menu prem-usl">
-                    <input style="display:none;" type="radio" name="2" value="false">
+                    <input style="display:none;" type="radio" name="6" value="false">
                     <div class="prem-block">
                         <i class="icon-ok-circle ok"></i>
                         <div class="title-prem">
