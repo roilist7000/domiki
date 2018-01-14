@@ -73,7 +73,8 @@
     </div>
     <div class="row row-do">
         <div class="col-md-6 col-xs-12 line-c">
-<a class="b-but"><span>бронировать</span><i class="icon-tagalt-pricealt"></i></a>
+            <div id="calendar_table"></div>
+            <a class="b-but"><span>бронировать</span><i class="icon-tagalt-pricealt"></i></a>
         </div>
         <div class="col-xs-12 col-md-6 line-otz">
             <div class="reit">

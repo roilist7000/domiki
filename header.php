@@ -22,6 +22,63 @@
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/media.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="css/whhg.css" />
+
+    <style type="text/css">
+        /* Таблица календарика */
+        .calendar {
+            border: 1px solid #909090;
+            border-collapse: collapse;
+            font-family: Arial;
+            font-size: 14px;
+        }
+        /* Заголовок */
+        .calendar th {
+            text-align: center;
+            width: 36px;
+            height: 36px;
+            background: #D0D0D0;
+            color: #000000;
+            border: 1px solid #909090;
+        }
+        /* Заголовок праздника */
+        .calendar th.holiday {
+            color: #FF0000;
+        }
+        /* Ячейка дня */
+        .calendar td {
+            text-align: right;
+            width: 28px;
+            height: 36px;
+            padding-right: 8px;
+            border: 1px solid #909090;
+            text-align: right;
+            cursor: pointer;
+        }
+        /* Затемненный день */
+        .calendar td.grayed {
+            background: #F0F0F0;
+            cursor: auto !important;
+        }
+        /* Выбранный день */
+        .calendar td.selected {
+            background: #6DAFBF;
+            color: #FFFFFF;
+            box-shadow: 1px 1px rgba(255, 255, 255, 0.5) inset;
+        }
+        /* Праздничный день */
+        .calendar td.holiday {
+            color: #FF0000;
+        }
+        /* Кнопки навигации */
+        .calendar td.navigation {
+            text-align: center;
+            border: 0px none !important;
+            font-size: 20px;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+    </style>
+
 </head>
 <body>
 <header class="header">
