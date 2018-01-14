@@ -19,13 +19,30 @@
             <a><i class="icon-map"></i> как проехать</a>
         </div>
         <div class="col-r text-right foto">
-            <a><i class="icon-map"></i><span>01<br>09</span></a>
+            <a><i class="icon-map"></i><span><span class="one-s">01</span><br><span class="all">09</span></span></a>
         </div>
     </div>
 </div>
         </div>
+            <? $i=1 ?>
             <div class="col-md-6 col-xs-12 right-main">
-                <img class="img-responsive" src="/images/img01.png" alt="" title="">
+                <div class="owl-carousel">
+                <div data-slide="0<? echo $i++ ?>" class="item">
+                        <img class="img-responsive" src="/images/img01.png" alt="" title="">
+                    </div>
+                    <div data-slide="0<? echo $i++ ?>" class="item">
+                        <img class="img-responsive" src="/images/img01.png" alt="" title="">
+                    </div>
+                    <div data-slide="0<? echo $i++ ?>" class="item">
+                        <img class="img-responsive" src="/images/img01.png" alt="" title="">
+                    </div>
+                    <div data-slide="0<? echo $i++ ?>" class="item">
+                        <img class="img-responsive" src="/images/img01.png" alt="" title="">
+                    </div>
+                    <div data-slide="0<? echo $i++ ?>" class="item">
+                        <img class="img-responsive" src="/images/img01.png" alt="" title="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>

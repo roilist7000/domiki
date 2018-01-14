@@ -1,26 +1,10 @@
 $(document).ready(function () {
     $('[type="tel"]').inputmask("(999) 999-99-99");
-    $('.owl-new-products').owlCarousel({
-        loop: false,
-        margin: 0,
-        nav: true,
-        navText: ["<i class=\"fa fa-caret-left\"></i>", "<i class=\"fa fa-caret-right\"></i>"],
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 3
-            }
-        }
-    });
-    $('.owl-montag-banner').owlCarousel({
+    $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 0,
         nav: false,
+        navText: ["<i class=\"fa fa-caret-left\"></i>", "<i class=\"fa fa-caret-right\"></i>"],
         items: 1,
         autoplay: true,
         autoplayTimeout: 5000,
@@ -59,6 +43,12 @@ $('.sub').click(function () {
         $(this).removeClass('act');
     }
 });
+if ($('.owl-item').not('.cloned').length<10){
+    $('.all').html('0'+$('.owl-item').not('.cloned').length);
+} else {
+    $('.all').html($('.owl-item').not('.cloned').length);
+};
+setInterval(function () {$('.one-s').html($('.owl-item.active .item').attr('data-slide'))},500);
 $('.ok').click(function () {
     if($(this).parent().parent().hasClass('prem-active')==false){
         $(this).parent().parent().addClass('prem-active');

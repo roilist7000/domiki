@@ -316,7 +316,7 @@ footer.footer {
 
 i.icon-map {}
 
-.foto a span {
+.foto a > span {
     position:  relative;
     top: -5px;
     display: inline-block;
