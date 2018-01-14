@@ -14,9 +14,22 @@
         </div>
         <div class="row tovar-top">
             <div class="col-md-6 col-xs-12 img-t">
+                <? $i=1 ?>
                 <div class="owl-carousel">
                     <div data-slide="0<? echo $i++ ?>" class="item">
                 <img src="/images/tovar-img.png" alt="" title="">
+                    </div>
+                    <div data-slide="0<? echo $i++ ?>" class="item">
+                        <img src="/images/tovar-img.png" alt="" title="">
+                    </div>
+                    <div data-slide="0<? echo $i++ ?>" class="item">
+                        <img src="/images/tovar-img.png" alt="" title="">
+                    </div>
+                    <div data-slide="0<? echo $i++ ?>" class="item">
+                        <img src="/images/tovar-img.png" alt="" title="">
+                    </div>
+                    <div data-slide="0<? echo $i++ ?>" class="item">
+                        <img src="/images/tovar-img.png" alt="" title="">
                     </div>
                 </div>
                 <div class="new_row row-tow">

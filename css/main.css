@@ -953,3 +953,65 @@ strong {
     position:  relative;
     top: -14px;
 }
+.section-tovar h1 {
+    font-family:  'PTSansBold';
+    color: #000333;
+    font-size: 48px;
+    margin: 0;
+}
+
+.section-tovar h2 {
+    font-family:  'PTSansRegular';
+    color:  #000333;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.section-tovar {
+    margin-top: 40px;
+}
+
+.ret-u a {
+    border: 2px solid #000333;
+    display:  inline-block;
+    height: 38px;
+    padding:  0 20px;
+    border-radius:  20px;
+    color: #000333;
+    font-family: 'PTSansBold';
+    font-size: 18px;
+    text-decoration: none;
+    position:  relative;
+    top: 30px;
+}
+
+.ret-u a i {
+    color:  #000333;
+    position:  relative;
+    top:  4px;
+    margin-left: 10px;
+}
+
+.ret-u a:hover {
+    background: #ffcc00;
+    border: 2px solid #ffcc00;
+    color: white;
+}
+
+.ret-u a:hover i {
+    color: white;
+}
+
+.new_row.row-tow {
+    position: absolute;
+    z-index:  999;
+    bottom: 0;
+    background: #000333;
+}
+
+.new_row.row-tow
+.col-r {
+    width:  auto;
+    display: inline-block;
+    padding: 10px 20px;
+}
