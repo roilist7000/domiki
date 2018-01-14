@@ -173,7 +173,31 @@
                 </ul>
             </div>
             <div class="desc-sp-right">
-
+<div class="zaezd">
+    <ul><li><i class="icon-clockalt-timealt z"></i><span>заезд в 15-00 </span></li><li><i class="icon-clockalt-timealt o"></i><span>выезд в 13-00</span></li></ul>
+</div>
+                <p>Предоплата-10000 руб.
+                    Договор заключается по паспорту</p>
+                <span><strong>Залог</strong> - паспорт или вод.удостоверение
+или 10000 руб.</span>
+                <div class="prems">
+                    <span>Доплата:</span>
+                    <ul>
+                        <li><i class="icon-ok"></i><span>больше 40 человек-500 руб.за 1 человека</span></li>
+                        <li><i class="icon-ok"></i><span>больше 40 человек-500 руб.за 1 человека</span></li>
+                        <li><i class="icon-ok"></i><span>больше 40 человек-500 руб.за 1 человека</span></li>
+                        <li><i class="icon-ok"></i><span>больше 40 человек-500 руб.за 1 человека</span></li>
+                    </ul>
+                </div>
+                <div class="prems">
+                    <span>Услуги:</span>
+                    <ul>
+                        <li><i class="icon-ok"></i><span>больше 40 человек-500 руб.за 1 человека</span></li>
+                        <li><i class="icon-ok"></i><span>больше 40 человек-500 руб.за 1 человека</span></li>
+                        <li><i class="icon-ok"></i><span>больше 40 человек-500 руб.за 1 человека</span></li>
+                        <li><i class="icon-ok"></i><span>больше 40 человек-500 руб.за 1 человека</span></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
