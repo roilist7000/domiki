@@ -216,8 +216,58 @@
                     <div class="desc-ttv">
 <div class="row">
     <div class="col-md-3 col-xs-12 one-img">
-        <a data-fancybox="gallery">
+        <a data-fancybox="group" href="/images/tovar-img.png">
         <img class="img-responsive" src="/images/tovar-img.png" alt="" title="">
+        </a>
+    </div>
+    <div class="col-md-3 col-xs-12 one-img">
+        <a data-fancybox="group" href="/images/tovar-img.png">
+            <img class="img-responsive" src="/images/tovar-img.png" alt="" title="">
+        </a>
+    </div>
+    <div class="col-md-3 col-xs-12 one-img">
+        <a data-fancybox="group" href="/images/tovar-img.png">
+            <img class="img-responsive" src="/images/tovar-img.png" alt="" title="">
+        </a>
+    </div>
+    <div class="col-md-3 col-xs-12 one-img">
+        <a data-fancybox="group" href="/images/tovar-img.png">
+            <img class="img-responsive" src="/images/tovar-img.png" alt="" title="">
+        </a>
+    </div>
+    <div class="col-md-3 col-xs-12 one-img">
+        <a data-fancybox="group" href="/images/tovar-img.png">
+            <img class="img-responsive" src="/images/tovar-img.png" alt="" title="">
+        </a>
+    </div>
+    <div class="col-md-3 col-xs-12 one-img">
+        <a data-fancybox="group" href="/images/tovar-img.png">
+            <img class="img-responsive" src="/images/tovar-img.png" alt="" title="">
+        </a>
+    </div>
+    <div class="col-md-3 col-xs-12 one-img">
+        <a data-fancybox="group" href="/images/tovar-img.png">
+            <img class="img-responsive" src="/images/tovar-img.png" alt="" title="">
+        </a>
+    </div>
+    <div class="col-md-3 col-xs-12 one-img">
+        <a data-fancybox="group" href="/images/tovar-img.png">
+            <img class="img-responsive" src="/images/tovar-img.png" alt="" title="">
+        </a>
+    </div>
+    <div class="col-md-3 col-xs-12 one-img">
+        <a data-fancybox="group" href="/images/tovar-img.png">
+            <img class="img-responsive" src="/images/tovar-img.png" alt="" title="">
+        </a>
+    </div>
+    <div class="col-md-3 col-xs-12 one-img">
+        <a data-fancybox="group" href="/images/tovar-img.png">
+            <img class="img-responsive" src="/images/tovar-img.png" alt="" title="">
+        </a>
+    </div>
+    <div class="col-md-3 col-xs-12 one-img">
+        <a data-fancybox="group" href="/images/tovar-img.png">
+            <img class="img-responsive" src="/images/tovar-img.png" alt="" title="">
         </a>
     </div>
 </div>

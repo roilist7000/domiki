@@ -1392,3 +1392,6 @@ p {
 .row-tab.active {
     display: block;
 }
+.one-img {
+    margin-bottom: 30px;
+}

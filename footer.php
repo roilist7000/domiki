@@ -63,8 +63,7 @@
 <script src="libs/inputmask/jquery.inputmask.extensions.js" type="text/javascript"></script>
 <script src="libs/inputmask/jquery.inputmask.date.extensions.js" type="text/javascript"></script>
 <script src="libs/inputmask/jquery.inputmask.numeric.extensions.js" type="text/javascript"></script>
-<script src="libs/inputmask/jquery.inputmask.numeric.extensions.js" type="text/javascript"></script>
-<link rel="stylesheet" href="js/jquery.fancybox.min.css"/>
+<script src="js/jquery.fancybox.min.js" type="text/javascript"></script>
 <script src="js/common.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHG5FpKNSrpxN35VHVzv5s5wNSvELyirk&callback=initMap"
         async defer></script>
