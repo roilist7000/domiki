@@ -1221,7 +1221,7 @@ a.but-otz i {
     display: inline-block;
     width: 160px;
     text-align: center;
-    background: #d0d0d0;
+    background: #e7e7e7;
     font-family:  'PTSansRegular';
     color: #000333;
     font-size: 24px;
@@ -1239,9 +1239,62 @@ a.but-otz i {
 }
 
 .desc-ttv {
+    position: relative;
+    overflow: hidden;
+    padding: 35px 50px;
+    border: 4px solid #ffcc00;
+    background: #e7e7e7;
+}
+.desc-ttv p {
+    font-family: 'PTSansRegular';
+    color: #000333;
+    font-size: 14px;
+    line-height:  1.6;
+    margin-bottom: 15px;
+}
+
+.desc-sp-left ul {
+    list-style: none;
+    padding: 0;
+    -webkit-column-width: 50%;
+    -moz-column-width: 50%;
+    column-width: 50%;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 0px;
+    -moz-column-gap: 0px;
+    column-gap: 0px;
+}
+
+.desc-sp-left {
     position:  relative;
     overflow:  hidden;
-    padding: 30px;
-    border: 4px solid #ffcc00;
-    background: #d0d0d0;
+    width: 70%;
+    float: left;
+    border-right: 1px solid #cccccc;
+}
+
+.desc-sp-left ul
+li {
+    font-family:  'PTSansRegular';
+    color: #000333;
+    font-size: 14px;
+    padding-right: 60px;
+    position:  relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.desc-sp-left ul li span {
+    display: block;
+    float:  left;
+    width: 80%;
+}
+
+.desc-sp-left ul li i {
+    width: 14%;
+    float: left;
+    font-size: 20px;
+    display: block;
 }
