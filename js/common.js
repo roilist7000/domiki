@@ -61,6 +61,14 @@ $('.ok').click(function () {
     }
 
 });
+$('.row-tmenu li').click(function () {
+    $('.row-tmenu li').removeClass('active');
+    $(this).addClass('active');
+    var a = $(this).attr('dara-tab');
+    $('.row-tab').removeClass('active');
+    $('.row'+a).addClass('active');
+
+});
 });
 
 

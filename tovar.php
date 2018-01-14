@@ -203,6 +203,35 @@
     </div>
 </div>
         </div>
+            <div class="row row-tab rowotz">
+                <div class="col-xs-12">
+                    <div class="desc-ttv">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-tab rowfoto">
+                <div class="col-xs-12">
+                    <div class="desc-ttv">
+<div class="row">
+    <div class="col-md-3 col-xs-12 one-img">
+        <a data-fancybox="gallery">
+        <img class="img-responsive" src="/images/tovar-img.png" alt="" title="">
+        </a>
+    </div>
+</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-tab rowmaps">
+                <div class="col-xs-12">
+                    <div class="desc-ttv">
+                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2c8cd50f7a17da4f487584f848c9fc459bb42f35244a5e4dac2f57c9982b99f0&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
+                </div>
+            </div>
     </div>
 </div>
 

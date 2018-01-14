@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="libs/animate/animate.css"/>
     <link rel="stylesheet" href="libs/owl.carousel/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
     <link rel="stylesheet" href="libs/chosen/chosen.min.css"/>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/media.css"/>
