@@ -6,7 +6,7 @@
     <div class="section-all sect-step01">
         <div class="container">
             <div class="row top-line">
-                <div class="col-md-8 col-xs-12"><span>Выберите обьект</span></div>
+                <div class="col-md-8 col-xs-12"><span>Выберите обьект для редактирования</span></div>
                 <div class="breadcrumbs col-md-4 col-xs-12 text-right">
                     <ul>
                         <li><a><i class="icon-arrow-left"></i></a></li>

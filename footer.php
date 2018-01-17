@@ -203,6 +203,8 @@
         }
         $('.day-26-1-2018 span').addClass('off-date');
         $('.day-27-1-2018 span').addClass('off-date');
+        $('.day-28-1-2018 span').addClass('off-date');
+        $('.day-29-1-2018 span').addClass('off-date');
         $('.indate input').each(function () {
             var a = $(this).attr('value');
             $('.'+a+' span').addClass('bron');
