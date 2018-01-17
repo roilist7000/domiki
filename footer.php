@@ -69,7 +69,19 @@
         async defer></script>
 
 <script type="text/javascript">
+    function dates (a){
 
+        if (a.find('span').hasClass('off-date')==false) {
+            if ($('.b-date').hasClass('y-' + a.attr('data-date')) == true) {
+                $('.y-' + a.attr('data-date')).remove();
+            } else {
+                $('.indate').append('<input type="hidden" class="b-date y-' + a.attr('data-date') + '" name="date[]" value="' + a.attr('data-date') + '">');
+            }
+            ;
+        } else {
+          alert('Занято');
+        };
+    };
     calendar = {};
 
     // Названия месяцев
@@ -168,10 +180,11 @@
                     class_name='holiday';
                 }
                 // Ячейка с датой
-                tmp+='<td class="'+class_name+'" '+
-                    'onclick="calendar.selectDate('+
-                    day+','+month+','+year+');"><span>'+day+'</span><\/td>';
+                tmp+='<td data-date="day-'+day+'-'+month+'-'+year+'" class="click-cal day-'+day+'-'+month+'-'+year+' '+class_name+'" '+
+                    'onclick="dates($(this));calendar.selectDate('+
+                    day+','+month+','+year+')"><span>'+day+'</span><\/td>';
                 day++;
+
             }
             // Конец строки таблицы
             if (index%7==6) {
@@ -188,6 +201,12 @@
         if (el) {
             el.innerHTML=tmp;
         }
+        $('.day-4-1-2018 span').addClass('off-date');
+        $('.day-2-2-2018 span').addClass('off-date');
+        $('.indate input').each(function () {
+            var a = $(this).attr('value');
+            $('.'+a+' span').addClass('bron');
+        });
     }
 
     // ID элемента для размещения календарика
@@ -199,12 +218,16 @@
         'Month' : parseInt(new Date().getMonth())+1,
         'Year' : new Date().getFullYear()
     };
-
+    //calendar.selectedDate.Day='17';
+    //calendar.selectedDate.Month='02';
+    //calendar.selectedDate.Year='2018';
+    $('.indate').attr('data-b', calendar.selectedDate.Day+''+''+calendar.selectedDate.Month+''+''+calendar.selectedDate.Year);
     // Нарисовать календарик
     calendar.drawCalendar(
         calendar.selectedDate.Month,
         calendar.selectedDate.Year
     );
+
 </script>
 
 </body>

@@ -22,15 +22,6 @@
                     <div data-slide="0<? echo $i++ ?>" class="item">
                         <img src="/images/tovar-img.png" alt="" title="">
                     </div>
-                    <div data-slide="0<? echo $i++ ?>" class="item">
-                        <img src="/images/tovar-img.png" alt="" title="">
-                    </div>
-                    <div data-slide="0<? echo $i++ ?>" class="item">
-                        <img src="/images/tovar-img.png" alt="" title="">
-                    </div>
-                    <div data-slide="0<? echo $i++ ?>" class="item">
-                        <img src="/images/tovar-img.png" alt="" title="">
-                    </div>
                 </div>
                 <div class="new_row row-tow">
                     <div class="col-r text-center map">
@@ -78,6 +69,10 @@
             </div>
             <div id="calendar_table"></div>
             <span>Забронировано</span>
+            <div class="indate" style="display: none">
+
+            </div>
+
             <a class="b-but"><span>бронировать</span><i class="icon-tagalt-pricealt"></i></a>
         </div>
         <div class="col-xs-12 col-md-6 line-otz">

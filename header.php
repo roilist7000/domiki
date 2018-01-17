@@ -31,6 +31,14 @@
             font-size: 14px;
             width: 100%;
         }
+        span.bron {
+            background: #ff6600 !important;
+            color: white !important;
+        }
+        span.off-date {
+            background: #cc6666 !important;
+            color: #cc6666 !important;
+        }
         /* Заголовок */
         .calendar th {
             text-align: center;
@@ -72,8 +80,7 @@
         }
         /* Выбранный день */
         .calendar td.selected span {
-            background: #6DAFBF;
-            color: #FFFFFF;
+            color: #000333;
         }
         /* Праздничный день */
         .calendar td.holiday {
