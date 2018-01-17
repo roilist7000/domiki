@@ -1428,3 +1428,50 @@ p {
     height: 100%;
     background: #cc6666;
 }
+.sect-step01 {
+    margin-top: 30px;
+}
+.sect-step02 {
+    margin-bottom: 40px;
+}
+.line-z {
+    border: 2px solid #000333;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cont-step h2 {
+    font-family:  'PTSansRegular';
+    margin-top:  0px;
+    margin-bottom: 10px;
+}
+
+h2 {}
+
+.cont-step h3 {
+    font-family:  'PTSansRegular';
+    margin-top: 10px;
+    color: #000333;
+}
+
+.cont-date span {
+    display:  block;
+    text-align: center;
+    font-family:  'PTSansRegular';
+    font-size:  16px;
+    color: #000333;
+}
+
+.cont-date {
+    margin-top: 10px;
+}
+
+.cont-but .btn {
+    width:  100%;
+    margin-bottom: 10px;
+    font-family:  'tangak';
+    font-size: 20px;
+    color: #ffcc00;
+    background:  #000033;
+    border: 0;
+}

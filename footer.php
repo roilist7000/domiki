@@ -201,8 +201,8 @@
         if (el) {
             el.innerHTML=tmp;
         }
-        $('.day-4-1-2018 span').addClass('off-date');
-        $('.day-2-2-2018 span').addClass('off-date');
+        $('.day-26-1-2018 span').addClass('off-date');
+        $('.day-27-2-2018 span').addClass('off-date');
         $('.indate input').each(function () {
             var a = $(this).attr('value');
             $('.'+a+' span').addClass('bron');
