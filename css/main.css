@@ -1475,3 +1475,9 @@ h2 {}
     background:  #000033;
     border: 0;
 }
+.line-c > span.bbbt:after {
+    background: #ff6600;
+}
+a.b-but.bt-02 {
+    margin-top: 10px;
+}

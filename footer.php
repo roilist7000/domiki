@@ -71,7 +71,7 @@
 <script type="text/javascript">
     function dates (a){
 
-        if (a.find('span').hasClass('off-date')==false) {
+        if (a.find('span').hasClass('off-date')==false||a.find('span').hasClass('bron')==true) {
             if ($('.b-date').hasClass('y-' + a.attr('data-date')) == true) {
                 $('.y-' + a.attr('data-date')).remove();
             } else {
@@ -202,7 +202,7 @@
             el.innerHTML=tmp;
         }
         $('.day-26-1-2018 span').addClass('off-date');
-        $('.day-27-2-2018 span').addClass('off-date');
+        $('.day-27-1-2018 span').addClass('off-date');
         $('.indate input').each(function () {
             var a = $(this).attr('value');
             $('.'+a+' span').addClass('bron');

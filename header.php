@@ -31,13 +31,13 @@
             font-size: 14px;
             width: 100%;
         }
-        span.bron {
-            background: #ff6600 !important;
-            color: white !important;
-        }
         span.off-date {
             background: #cc6666 !important;
             color: #cc6666 !important;
+        }
+        span.bron {
+            background: #ff6600 !important;
+            color: white !important;
         }
         /* Заголовок */
         .calendar th {
